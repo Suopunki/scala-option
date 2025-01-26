@@ -24,4 +24,4 @@ classifiers = [
 dev = ["pytest", "pytest-cov"]
 
 [project.urls]
-Repository = "https://github.com/Suopunki/scala-option"
+Repository = "https://github.com/Suopunki/scala_option"
