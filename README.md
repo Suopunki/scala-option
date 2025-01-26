@@ -1,4 +1,4 @@
-# scala-option
+# scala_option
 
 <!-- Badges: -->
 [![python](https://img.shields.io/badge/Python->=_3.12-3776AB.svg?style=flat&logo=python&logoColor=yellow)](https://www.python.org)
@@ -45,7 +45,7 @@ You can check your python version by running the command:
 You can install the package by running the command:
 
 ```bash
-pip install scala-option
+pip install scala_option
 ```
 
 ### Building from Source
@@ -85,14 +85,14 @@ Once you have installed the package (see [Installation](#installation)), you
 just need to add the import statement:
 
 ```py
-from scala-option import Option, none, some
+from scala_option import Option, none, some
 ```
 
 Then you can begin using the `Option` type. Here's a little example:
 
 ```py
 import random
-from scala-option import Option, none, some
+from scala_option import Option, none, some
 
 def fivety_fivety() -> Option[int]:
   if random.random() <= 0.5:
