@@ -2,7 +2,7 @@
 
 <!-- Badges: -->
 [![python](https://img.shields.io/badge/Python->=_3.12-3776AB.svg?style=flat&logo=python&logoColor=yellow)](https://www.python.org)
-![Test Coverage](https://img.shields.io/badge/test_coverage-88%-green)
+![Test Coverage](https://img.shields.io/badge/test_coverage-88%25-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 Scala like `Option` type in Python.
