@@ -3,8 +3,8 @@ requires = ["setuptools >= 61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "scala_option"
-version = "1.0.1"
+name = "scala-option"
+version = "1.0.2"
 dependencies = []
 requires-python = ">=3.12"
 authors = [{ name = "Alex Suopanki", email = "alex.suopanki@gmail.com" }]
@@ -24,4 +24,4 @@ classifiers = [
 dev = ["pytest", "pytest-cov"]
 
 [project.urls]
-Repository = "https://github.com/Suopunki/scala_option"
+Repository = "https://github.com/Suopunki/scala-option"
