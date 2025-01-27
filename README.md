@@ -1,7 +1,9 @@
-# scala_option
+# scala-option
 
 <!-- Badges: -->
 [![python](https://img.shields.io/badge/Python->=_3.12-3776AB.svg?style=flat&logo=python&logoColor=yellow)](https://www.python.org)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/scala-option)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/scala-option)
 ![Test Coverage](https://img.shields.io/badge/test_coverage-88%25-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
@@ -25,8 +27,10 @@ Implements the child classes `None` and `Some`, but renamed to `none` and
 
 ### Requirements
 
-This library requires Python 3.12.0 or newer, because it uses the latest syntax
+This library requires Python 3.12 or newer, because it uses the latest syntax
 for generics, introduced in Python 3.12.
+
+[Download Python](https://www.python.org/downloads/)
 
 You can check your python version by running the command:
 
@@ -40,12 +44,14 @@ You can check your python version by running the command:
 > python3 --version
 > ```
 
+You can download Python from: [Download Python](https://www.python.org/downloads/)
+
 ### Installing Using PIP
 
 You can install the package by running the command:
 
 ```bash
-pip install scala_option
+pip install scala-option
 ```
 
 ### Building from Source
@@ -67,7 +73,7 @@ Then, build the project by running:
 >
 > Linux and macOS:
 > ```bash
-> python3 -m build
+> python -m build
 > ```
 
 
@@ -83,6 +89,8 @@ pip install -e .
 
 Once you have installed the package (see [Installation](#installation)), you
 just need to add the import statement:
+
+__Attention:__ the package name contains an underscore instead of a dash
 
 ```py
 from scala_option import Option, none, some
@@ -109,8 +117,12 @@ def print_option(option: Option) -> None:
 
 ### Implemented Methods
 
-Implements some of the most important methods of the Scala `Option`
-([documentation](https://dotty.epfl.ch/api/scala/Option.html)).
+The `Option` type implements many of the most important methods
+of the Scala `Option` ([Scala Option documentation](https://dotty.epfl.ch/api/scala/Option.html)).
+
+The methods are documented using Docstrings.
+
+List of methods:
 
 - `get()`
 - `is_empty()`
